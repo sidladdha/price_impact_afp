@@ -1,43 +1,25 @@
-Machine Learning Model Analysis Project
-Overview
+# Machine Learning Model Analysis Project
+## Overview
 This project consists of multiple Python scripts aimed at analyzing machine learning models, evaluating their performance using various metrics, and visualizing the results. The project includes scripts for:
-Model training and evaluation
-Price impact analysis using ML models
-SHAP value interpretation
-Evaluation metric table generation
-Best model analysis with visualization
-VAR (Vector AutoRegression) modeling
-Project Structure
-ml_model_analysis/
-│-- src/
-│   ├── best_model_analysis.py
-│   ├── best_model_analysis_charts.py
-│   ├── evaluation_metrics_table.py
-│   ├── ml_price_impact.py
-│   ├── shap_analysis.py
-│   ├── training_runner_notebook.py
-│   ├── var_analysis.py
-│-- data/
-│   ├── raw/         # Raw datasets
-│   ├── processed/   # Processed datasets
-│-- models/
-│   ├── trained_models/   # Saved trained models
-│-- notebooks/
-│   ├── exploratory_analysis.ipynb
-│-- README.md
-│-- requirements.txt
+- Model training and evaluation
+- Price impact analysis using ML models
+- SHAP value interpretation
+- Evaluation metric table generation
+- Best model analysis with visualization
+- VAR (Vector AutoRegression) modeling
 
-Installation
-Prerequisites
+
+## Installation
+### Prerequisites
 Ensure you have Python 3.8 or later installed. Recommended to set up a virtual environment.
 python -m venv venv
 source venv/bin/activate  # On Windows, use 'venv\Scripts\activate'
 
-Install Dependencies
-Run the following command to install required Python libraries:
+## Install Dependencies
+### Run the following command to install required Python libraries:
 pip install -r requirements.txt
 
-Usage
+## Usage
 Each script serves a specific purpose in model analysis. Below is a brief description:
 1. Training Runner
 python src/training_runner_notebook.py
