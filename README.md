@@ -25,7 +25,7 @@ pip install -r requirements.txt
 |- Metrics \
 |- Train_{month} \
 |- Val_{month} \
-|- Test_{month} \
+|- Test_{month}
 
 ## Usage
 Each script serves a specific purpose in model analysis. Below is a brief description:
