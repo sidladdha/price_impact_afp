@@ -21,11 +21,11 @@ pip install -r requirements.txt
 
 ## File Structure Created
 |
-|- Models
-|- Metrics
-|- Train_{month}
-|- Val_{month}
-|- Test_{month}
+|- Models \n
+|- Metrics \n
+|- Train_{month} \n 
+|- Val_{month} \n 
+|- Test_{month} \n
 
 ## Usage
 Each script serves a specific purpose in model analysis. Below is a brief description:
