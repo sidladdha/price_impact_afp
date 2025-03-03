@@ -21,24 +21,18 @@ pip install -r requirements.txt
 
 ## Usage
 Each script serves a specific purpose in model analysis. Below is a brief description:
-1. Training Runner
-python src/training_runner_notebook.py
-Automates the training of ML models using different datasets. It saves trained models for further evaluation and comparison.
-2. Best Model Analysis
-python src/best_model_analysis.py
-Evaluates various ML models based on their performance metrics such as Mean Squared Error (MSE) and R². It selects the best-performing model among a given set.
-3. Best Model Analysis Charts
-python src/best_model_analysis_charts.py
-Generates visualizations comparing different ML models' performance. It includes scatter plots for predictions vs. actual values and residual analysis.
-4. SHAP Analysis
-python src/shap_analysis.py
-Uses SHAP values to explain ML model predictions by analyzing feature importance and their contributions to predictions.
-5. Price Impact Analysis
-python src/ml_price_impact.py
-Analyzes the impact of ML models on financial price movements. It predicts price impact and compares actual vs. predicted values to assess accuracy.
-6. Evaluation Metrics Table
-python src/evaluation_metrics_table.py
-Constructs a tabular summary of evaluation metrics for different ML models, providing a structured comparison of their performance.
-7. VAR (Vector AutoRegression) Analysis
-python src/var_analysis.py
-Implements Vector AutoRegression (VAR) modeling to analyze the dependencies between multiple time series variables.
+1. Data processing and feature enginerring
+python src/Data_Processing_and_Feature_Enginerring.py
+Downloads the data from Databento and create features - as well as data preprocessing and cleaning
+2. VAR and IRF Analysis
+python src/Vector_Autoregression_and_Impulse_Response_Analysis.py
+Create the baseline to calculate the VAR price impacts and other analysis
+3. Modelling
+python src/Model_Training_And_Evaluation.py
+Train different models - including RF, Ridge, GBT etc.
+4. Price and robustness analysis
+python src/Price_Impact_Model_Analysis.py
+Developed different lags and see an analysis of how models respond as well as see different lags
+5. SHAP Analysis
+python src/SHAP_Analysis.py
+Calculate feature importance for each model and check which features are important
