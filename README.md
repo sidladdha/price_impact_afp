@@ -1,12 +1,11 @@
 # Machine Learning Model Analysis Project
 ## Overview
 This project consists of multiple Python scripts aimed at analyzing machine learning models, evaluating their performance using various metrics, and visualizing the results. The project includes scripts for:
-- Model training and evaluation
-- Price impact analysis using ML models
-- SHAP value interpretation
-- Evaluation metric table generation
-- Best model analysis with visualization
-- VAR (Vector AutoRegression) modeling
+- Data processing and feature enginerring
+- VAR and IRF Analysis
+- Modelling and Evaluation
+- Price and robustness analysis
+- SHAP Analysis
 
 
 ## Installation
