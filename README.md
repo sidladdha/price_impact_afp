@@ -19,6 +19,14 @@ source venv/bin/activate  # On Windows, use 'venv\Scripts\activate'
 ### Run the following command to install required Python libraries:
 pip install -r requirements.txt
 
+## File Structure Created
+|
+|- Models
+|- Metrics
+|- Train_{month}
+|- Val_{month}
+|- Test_{month}
+
 ## Usage
 Each script serves a specific purpose in model analysis. Below is a brief description:
 1. Data processing and feature enginerring
