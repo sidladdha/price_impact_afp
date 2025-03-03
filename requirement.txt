@@ -1,0 +1,15 @@
+shap
+cudf
+cupy
+cuml
+lightgbm
+numpy
+pandas
+torch
+xgboost
+scikit-learn
+databento
+matplotlib
+pytz
+requests
+statsmodels
