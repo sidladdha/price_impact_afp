@@ -20,7 +20,7 @@ source venv/bin/activate  # On Windows, use 'venv\Scripts\activate'
 pip install -r requirements.txt
 
 ## File Structure Created
-|
+| \
 |- Models \
 |- Metrics \
 |- Train_{month} \
